@@ -1,0 +1,55 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "../node_modules/normalize.css/normalize.css";
+.primary-color {
+  color: #333333!important;
+}
+
+.accent-color {
+  color: #DD4814!important;
+}
+
+.light-color {
+  color: #CDCDCD;
+}
+
+.background-primary-color {
+  background-color: #333333!important;
+}
+
+.background-accent-color {
+  background-color: #DD4814!important;
+}
+
+.background-light-color {
+  color: #CDCDCD;
+}
+
+.mat-fab.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent {
+  background-color: #DD4814;
+}
+
+.white-text {
+  color: #FFF!important;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #FBFBFC;
+}
+
+.layout-padding {
+  padding: 8px;
+}
+
+.layout-margin {
+  margin: 8px;
+}
+
+.mat-select-trigger, .mat-select {
+  height: 100%;
+  min-height: 40px;
+}
+
+.mat-select-value {
+  vertical-align: middle;
+}

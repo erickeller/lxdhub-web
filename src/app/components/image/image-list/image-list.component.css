@@ -1,0 +1,34 @@
+.image-list {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 100%;
+    overflow-y: auto;
+}
+
+.image-column {
+    width: 45%;
+}
+
+.image-list tr {
+    height: 40px;
+}
+
+.image-list th {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.image-list td, .image-list th {
+    padding: 10px;
+    text-align: left;
+}
+
+.image-list tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    border: 3px #333333 solid;
+    min-height: 60px;
+    margin: 0;
+}

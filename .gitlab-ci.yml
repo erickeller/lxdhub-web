@@ -1,0 +1,16 @@
+image: docker:latest
+
+services:
+  - docker:dind
+
+stages:
+  - deploy
+
+# The deployment stage builds the docker image
+# and then pushes it to docker hub
+deploy:
+  stage: deploy
+  only:
+    - tags
+  script:
+    - ./bin/deploy-docker.sh

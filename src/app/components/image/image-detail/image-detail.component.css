@@ -1,0 +1,50 @@
+.image-detail-header {
+    background: #878787;
+    height: 200px;
+    padding: 0;
+}
+
+.image-detail-header-content {
+    padding: 0;
+}
+
+.image-description {
+    font-size: 30px;
+}
+
+.image-description-detail {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.clone-image {
+    height: 40px;
+}
+
+.image-detail-content {
+    line-height: 25px;
+    color: #363636;
+}
+
+.detail-title {
+    width: 140px;
+    display: inline-block;
+    color: black;
+}
+
+.detail-overtitle {
+    font-size: 32px;
+    font-weight: normal;
+    margin-top: 15px;
+    color: black;
+}
+
+.image-detail-header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.remote-icon {
+    position: relative;
+    top: 5px;
+}

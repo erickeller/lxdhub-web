@@ -1,0 +1,17 @@
+.remote-hint {
+    padding: 16px;
+    font-size: 13px;
+    height: 50px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 20px 0;
+    overflow-x: auto;
+    width: 100%;
+}
+.remote-hint span {
+    max-height: 100%;
+    white-space: nowrap;
+}
+.remote-hint span:before {
+    content: '$';
+    margin: 10px;
+}

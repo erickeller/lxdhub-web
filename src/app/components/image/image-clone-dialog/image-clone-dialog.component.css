@@ -1,0 +1,7 @@
+.clone-button {
+    margin-right: 20px;
+}
+
+.clone-spinner circle {
+    stroke: #DD4814 !important;
+}
