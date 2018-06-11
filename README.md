@@ -62,6 +62,8 @@ docker build -t lxdhub-web:dev . && docker run -p 4200:80 lxdhub-web:dev
 You can configure the nginx configuration, which is used to serve the
 built `dist/` folder. Readme more about [nginx](http://nginx.org/en/docs/beginners_guide.html).
 
+Edit the configuration by running in your shell `vi nginx-custom.conf`
+
 1. Build the image
 
 ```bash
