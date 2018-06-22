@@ -3,7 +3,7 @@ import { MatDialog } from '@angular/material';
 import { ActivatedRoute } from '@angular/router';
 import { ImageDetailDto } from '@lxdhub/common';
 import * as PrettyBytes from 'pretty-bytes';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 
 import { ImageCloneDialogComponent } from '../image-clone-dialog/image-clone-dialog.component';
 import { ImageService } from '../image.service';

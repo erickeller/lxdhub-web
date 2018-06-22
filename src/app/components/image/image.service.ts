@@ -8,7 +8,7 @@ import {
   PaginationResponseDto,
   ResponseDto,
 } from '@lxdhub/common';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 import { environment } from '../../../environments/environment';
 import { NGXLogger } from 'ngx-logger';
